@@ -6,3 +6,15 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+sha2 = "0.10.6"
+rust-crypto = "0.2.36"
+bincode = "2.0.0-rc.2"
+log = "0.4.17"
+clap = "4.0.32"
+rand = "0.8.5"
+serde = {version = "1.0.152", features = ["derive"]}
+serde_json = "1.0.91"
+failure = "0.1.8"
+env_logger = "0.10.0"
+sled = "0.34.7"
+bitcoincash-addr = "0.5.2"
